@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 0.875rem;
+    font-family: 'Raleway', sans-serif;
+    background: #bfbdc2;
+
+
+}
+.conteiner-top{
+    width: 800px;
+    margin: auto;
+    padding: 100px 50px 100px 62px;
+    background: url(../i/1.jpg ) no-repeat;
+    background-size: cover;
+
+}
+.conteiner-box{
+    width: 684px;
+    height: 350px;
+    padding-left: 38px;
+    background: #152335;
+    border-radius: 10px;
+    box-shadow: 0px 4px 50px 1px #000000;
+}
+
+.logo-box{
+     position: absolute;
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: -97px;
+    margin-top: -142px;
+}
+.img-nike{
+    display: inline-block;
+    margin-top: 120px;
+}
+.conteiner-right{
+    float: right;
+
+    margin-top: -115px;
+    margin-right: 35px;
+}
+.information-ferst{
+
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+    color: #e1e1e1;
+}
+.information-two{
+    color: #49505a;
+    font-size: 1rem;
+}
+.stars{
+    margin: 20px 0;
+}
+.searc-size{
+    display: inline-block;
+    padding: 6px;
+
+}
+.searc-qty{
+    display: inline-block;
+}
+.button{
+
+    border: 1px solid #49505a;
+    background: #283443;
+    padding: 12px 56px;
+    color: #abafb4;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+.button-link{
+    text-decoration: none;
+    color: #49505a;
+}
+.footer {
+    max-width: 70%;
+    margin-left: 220px;
+    margin-top: 20px;
+
+}
+.rounded {
+    width: 12px;
+    height: 12px;
+    background: red;
+    display: inline-block;
+    margin-right: 6px;
+    border-radius: 12px;
+    vertical-align: middle;
+    box-sizing: content-box;
+}
+.rounded:hover{
+    background: transparent;
+    border: 2px solid red;
+    margin-left: -4px;
+
+
+}
+.rounded__item-red{
+    background: red;
+}
+.rounded__item-white{
+    background: white;
+}
+.rounded__item-blue{
+    background: #25e7ee
+}
